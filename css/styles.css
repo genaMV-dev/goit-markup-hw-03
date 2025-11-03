@@ -57,6 +57,7 @@ li {
      text-transform: uppercase;
      color: #4d5ae5;
      margin-right: 76px;
+     display: inline-block;
 }
 
 .nav-list{
@@ -257,6 +258,11 @@ li {
 
 .footer{
     background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer .main-logo{
+    margin-bottom: 16px;
 }
 
 .logo-span-footer{
@@ -267,6 +273,7 @@ li {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 /* #endregion footer */
